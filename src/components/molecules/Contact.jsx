@@ -1,5 +1,5 @@
 import MarkedText from "../atoms/MarkedText";
-import BtnGroupContact from "../molecules/BtnGroupContact";
+import BtnGroupContact from "./BtnGroupContact";
 
 const Contact = () => {
   return (

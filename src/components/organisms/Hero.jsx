@@ -1,5 +1,5 @@
 import HeroTitle from "../atoms/HeroTitle";
-import Contact from "./Contact";
+import Contact from "../molecules/Contact";
 
 const Hero = () => {
   return (
