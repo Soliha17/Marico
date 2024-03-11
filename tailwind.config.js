@@ -21,6 +21,7 @@ export default {
       black: {
         light: "#0E0E0E",
         DEFAULT: "#000000",
+        dark: "#0D0D0D",
       },
     },
   },
