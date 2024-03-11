@@ -10,10 +10,10 @@ export default function Dropdown() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center items-center gap-x-1.5 bg-transparent text-xl font-medium leading-[30px] text-gray-light hover:text-blue transition-colors">
+        <Menu.Button className="inline-flex w-full items-center justify-center gap-x-1.5 bg-transparent text-xl font-medium leading-[30px] text-gray-light transition-colors hover:text-blue">
           Use Cases
           <ChevronDownIcon
-            className="-mr-1 h-5 w-5 text-gray-400"
+            className="text-gray-400 -mr-1 h-5 w-5"
             aria-hidden="true"
           />
         </Menu.Button>
@@ -28,15 +28,15 @@ export default function Dropdown() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute left-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <Menu.Items className="absolute left-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-gray-dark shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
                 <a
                   href="#"
                   className={classNames(
-                    active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                    "block px-4 py-2 text-sm"
+                    active ? "bg-gray-100 text-blue" : "text-white",
+                    "block px-4 py-2 text-sm",
                   )}
                 >
                   Account settings
@@ -48,8 +48,8 @@ export default function Dropdown() {
                 <a
                   href="#"
                   className={classNames(
-                    active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                    "block px-4 py-2 text-sm"
+                    active ? "bg-gray-100 text-blue" : "text-white",
+                    "block px-4 py-2 text-sm",
                   )}
                 >
                   Support
@@ -61,8 +61,8 @@ export default function Dropdown() {
                 <a
                   href="#"
                   className={classNames(
-                    active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                    "block px-4 py-2 text-sm"
+                    active ? "bg-gray-100 text-blue" : "text-white",
+                    "block px-4 py-2 text-sm",
                   )}
                 >
                   License
