@@ -1,12 +1,14 @@
 import PropTypes from "prop-types";
 
+import greenDot from "/src/assets/green-dot.svg";
+
 const MarkedText = ({ numberSize, textSize }) => {
   return (
     <div className="mt-6 flex items-center justify-center gap-[9px]">
       <div
         className={`green-circle flex h-[28.6px] w-[28.6px] animate-pulse items-center justify-center rounded-full bg-no-repeat`}
       >
-        <img src="/src/assets/green-dot.svg" alt="green dot" width={17.1} />
+        <img src={greenDot} alt="green dot" width={17.1} />
       </div>
       <p className={`text-center font-extrabold text-white ${numberSize}`}>
         1000+

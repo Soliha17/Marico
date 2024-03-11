@@ -1,6 +1,8 @@
 import BtnGroupSection from "../molecules/BtnGroupSection";
 import NumberedText from "../molecules/NumberedText";
 
+import macbookImg from "/src/assets/mackbook.png";
+
 const YourHomepage = () => {
   return (
     <div className="mx-auto mt-16 flex w-[95%] max-w-[1640px] flex-col justify-center gap-14 overflow-x-hidden md:justify-between lg:mt-44 lg:gap-20 xl:flex-row">
@@ -25,7 +27,7 @@ const YourHomepage = () => {
 
       <div>
         <img
-          src="/src/assets/mackbook.png"
+          src={macbookImg}
           alt="app view mackbook"
           className="w-full max-w-[850px] animate-pulse md:w-auto lg:-mr-[44px]"
         />

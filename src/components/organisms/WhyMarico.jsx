@@ -1,6 +1,10 @@
 import SectionTitle from "../atoms/SectionTitle";
 import WhyMaricoCard from "../molecules/WhyMaricoCard";
 
+import partyIcon from "/src/assets/party.svg";
+import happyIcon from "/src/assets/happy.svg";
+import smileIcon from "/src/assets/smile.svg";
+
 const WhyMarico = () => {
   return (
     <div className="mx-auto mt-20 w-[95%] max-w-[1640px] lg:mt-44">
@@ -9,17 +13,17 @@ const WhyMarico = () => {
         <WhyMaricoCard
           title="Reduced Anxiety"
           text="Never worry about losing your audience."
-          icon="/src/assets/smile.svg"
+          icon={smileIcon}
         />
         <WhyMaricoCard
           title="Lower Workload"
           text="Just share one link. We'll handle the rest."
-          icon="/src/assets/happy.svg"
+          icon={happyIcon}
         />
         <WhyMaricoCard
           title="More Time"
           text="Spend less time on marketing tools"
-          icon="/src/assets/party.svg"
+          icon={partyIcon}
         />
       </div>
     </div>

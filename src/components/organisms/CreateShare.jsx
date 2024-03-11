@@ -1,6 +1,8 @@
 import BtnGroupSection from "../molecules/BtnGroupSection";
 import NumberedText from "../molecules/NumberedText";
 
+import blackPinkImg from "/src/assets/blackpink.png";
+
 const CreateShare = () => {
   return (
     <div className="mx-auto mt-16 flex w-[95%] max-w-[1640px] flex-col justify-center gap-14 overflow-x-hidden md:justify-between lg:mt-44 lg:gap-20 xl:flex-row">
@@ -25,7 +27,7 @@ const CreateShare = () => {
 
       <div>
         <img
-          src="/src/assets/blackpink.png"
+          src={blackPinkImg}
           alt="app view mackbook"
           className="w-full max-w-[800px] animate-pulse md:w-auto lg:-mr-[44px]"
         />
