@@ -7,6 +7,7 @@ import Step2 from "./components/organisms/Step2";
 import OneLinkCollects from "./components/organisms/OneLinkCollects";
 import Step3 from "./components/organisms/Step3";
 import CreateShare from "./components/organisms/CreateShare";
+import ExpertsAgree from "./components/organisms/ExpertsAgree";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <OneLinkCollects />
         <Step3 />
         <CreateShare />
+        <ExpertsAgree />
       </div>
     </div>
   );
