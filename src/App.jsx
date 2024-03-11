@@ -5,6 +5,7 @@ import Step1 from "./components/organisms/Step1";
 import YourHomepage from "./components/organisms/YourHomepage";
 import Step2 from "./components/organisms/Step2";
 import OneLinkCollects from "./components/organisms/OneLinkCollects";
+import Step3 from "./components/organisms/Step3";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <YourHomepage />
         <Step2 />
         <OneLinkCollects />
+        <Step3 />
       </div>
     </div>
   );
