@@ -21,9 +21,9 @@ export default function Navbar() {
         <>
           <div className="mx-auto w-[95%] max-w-[1640px]">
             <div className="relative flex h-16 items-center justify-between">
-              <div className="flex items-center lg:hidden mr-3">
+              <div className="mr-3 flex items-center lg:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="hover:bg-gray-700 relative inline-flex items-center justify-center rounded-md p-2 text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
                   {open ? (
@@ -37,7 +37,7 @@ export default function Navbar() {
                 <div className="flex flex-shrink-0 items-center">
                   <HeaderLogo />
                 </div>
-                <div className="hidden sm:ml-6 lg:block lg:mx-auto">
+                <div className="hidden sm:ml-6 lg:mx-auto lg:block">
                   <div className="flex space-x-8">
                     <Dropdown />
                     {navigation.map((item) => (
@@ -48,7 +48,7 @@ export default function Navbar() {
                           item.current
                             ? "text-blue hover:underline"
                             : "text-gray-light hover:text-blue",
-                          "text-xl leading-[30px] font-medium cursor-pointer transition-colors"
+                          "cursor-pointer text-xl font-medium leading-[30px] transition-colors",
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -64,7 +64,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Disclosure.Panel className="lg:hidden z-50 absolute bg-black right-0 left-0">
+          <Disclosure.Panel className="disc-panel absolute left-0 right-0 z-50 bg-black lg:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
               <div className="ml-3 mt-2">
                 <Dropdown />
@@ -78,8 +78,8 @@ export default function Navbar() {
                   className={classNames(
                     item.current
                       ? "text-blue hover:underline"
-                      : "text-gray-light hover:bg-gray-700 hover:text-blue",
-                    "block px-3 py-2 text-xl leading-[30px] font-medium cursor-pointer transition-colors"
+                      : "hover:bg-gray-700 text-gray-light hover:text-blue",
+                    "block cursor-pointer px-3 py-2 text-xl font-medium leading-[30px] transition-colors",
                   )}
                   aria-current={item.current ? "page" : undefined}
                 >

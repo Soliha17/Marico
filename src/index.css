@@ -12,6 +12,8 @@
   }
 }
 
+/* Additional styles */
+
 .text-gradient {
   background-image: linear-gradient(90deg, #fe6783, #ffbf84);
   background-size: 100%;
@@ -25,5 +27,8 @@
 
 .green-circle {
   background-image: url("/src/assets/green-shape.svg");
-  background-repeat: no-repeat;
+}
+
+.disc-panel {
+  box-shadow: "0px 5px 15px rgba(0, 0, 0, 0.9)";
 }
