@@ -1,9 +1,11 @@
+import mLogo from "/public/m-logo.svg";
+
 const HeaderLogo = () => {
   return (
     <div className="flex items-center gap-4">
-      <img src="/public/m-logo.svg" width={45.12} alt="marico-logo" />
+      <img src={mLogo} width={45.12} alt="marico-logo" />
       <p
-        className={`text-[37px] font-extrabold leading-[56px] text-white hidden sm:block`}
+        className={`hidden text-[37px] font-extrabold leading-[56px] text-white sm:block`}
       >
         Marico
       </p>
