@@ -9,7 +9,8 @@ export default {
       white: "#FFFFFF",
       blue: {
         DEFAULT: "#3C82F4",
-        dark: "#326CF9",
+        midDark: "#326CF9",
+        dark: "#306EF7",
       },
       gray: {
         light: "#707070",
