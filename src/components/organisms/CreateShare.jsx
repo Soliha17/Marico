@@ -27,7 +27,7 @@ const CreateShare = () => {
         <img
           src="/src/assets/blackpink.png"
           alt="app view mackbook"
-          className="w-full max-w-[800px] md:w-auto lg:-mr-[44px]"
+          className="w-full max-w-[800px] animate-pulse md:w-auto lg:-mr-[44px]"
         />
       </div>
     </div>

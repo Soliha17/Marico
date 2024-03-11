@@ -27,7 +27,7 @@ const YourHomepage = () => {
         <img
           src="/src/assets/mackbook.png"
           alt="app view mackbook"
-          className="w-full max-w-[850px] md:w-auto lg:-mr-[44px]"
+          className="w-full max-w-[850px] animate-pulse md:w-auto lg:-mr-[44px]"
         />
       </div>
     </div>
