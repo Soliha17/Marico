@@ -3,7 +3,7 @@ import NumberedText from "../molecules/NumberedText";
 
 const CreateShare = () => {
   return (
-    <div className="mx-auto mt-24 flex w-[95%] max-w-[1640px] flex-col justify-center gap-14 overflow-x-hidden md:justify-between lg:mt-44 lg:gap-20 xl:flex-row">
+    <div className="mx-auto mt-16 flex w-[95%] max-w-[1640px] flex-col justify-center gap-14 overflow-x-hidden md:justify-between lg:mt-44 lg:gap-20 xl:flex-row">
       <div>
         <p className="text-2xl font-medium text-white md:text-3xl">
           Create & Share

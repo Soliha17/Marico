@@ -10,6 +10,7 @@ import CreateShare from "./components/organisms/CreateShare";
 import ExpertsAgree from "./components/organisms/ExpertsAgree";
 import Audience from "./components/organisms/Audience";
 import GetStartedNow from "./components/organisms/GetStartedNow";
+import Footer from "./components/organisms/Footer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <ExpertsAgree />
         <Audience />
         <GetStartedNow />
+        <Footer />
       </div>
     </div>
   );
