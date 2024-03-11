@@ -29,6 +29,11 @@
   background-image: url("/src/assets/green-shape.svg");
 }
 
+.audience {
+  background-image: url("/src/assets/audience.png");
+  background-size: cover;
+}
+
 .disc-panel {
   box-shadow: "0px 5px 15px rgba(0, 0, 0, 0.9)";
 }
