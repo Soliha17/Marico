@@ -8,7 +8,7 @@ const Contact = () => {
         Turn your audience into email and <br /> text message subscribers.
       </p>
       <BtnGroupContact />
-      <MarkedText />
+      <MarkedText numberSize="md:text-2xl" textSize="md:text-2xl" />
     </div>
   );
 };

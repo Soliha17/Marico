@@ -9,6 +9,7 @@ import Step3 from "./components/organisms/Step3";
 import CreateShare from "./components/organisms/CreateShare";
 import ExpertsAgree from "./components/organisms/ExpertsAgree";
 import Audience from "./components/organisms/Audience";
+import GetStartedNow from "./components/organisms/GetStartedNow";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <CreateShare />
         <ExpertsAgree />
         <Audience />
+        <GetStartedNow />
       </div>
     </div>
   );
