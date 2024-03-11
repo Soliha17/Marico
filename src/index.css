@@ -22,3 +22,8 @@
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
+
+.green-circle {
+  background-image: url("/src/assets/green-shape.svg");
+  background-repeat: no-repeat;
+}

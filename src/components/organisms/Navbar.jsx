@@ -64,7 +64,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Disclosure.Panel className="lg:hidden">
+          <Disclosure.Panel className="lg:hidden z-50 absolute bg-black right-0 left-0">
             <div className="space-y-1 px-2 pb-3 pt-2">
               <div className="ml-3 mt-2">
                 <Dropdown />

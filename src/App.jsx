@@ -3,8 +3,8 @@ import Navbar from "./components/organisms/Navbar";
 
 function App() {
   return (
-    <div className="bg-black w-full">
-      <div className="pt-11 max-w-[1920px] mx-auto">
+    <div className="w-full bg-black">
+      <div className="mx-auto max-w-[1920px] pt-7 sm:pt-11">
         <Navbar />
         <Hero />
       </div>
