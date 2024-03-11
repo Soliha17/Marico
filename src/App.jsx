@@ -1,6 +1,7 @@
 import WhyMarico from "./components/organisms/WhyMarico";
 import Hero from "./components/organisms/Hero";
 import Navbar from "./components/organisms/Navbar";
+import Step1 from "./components/organisms/Step1";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Navbar />
         <Hero />
         <WhyMarico />
+        <Step1 />
       </div>
     </div>
   );
