@@ -3,6 +3,7 @@ import Hero from "./components/organisms/Hero";
 import Navbar from "./components/organisms/Navbar";
 import Step1 from "./components/organisms/Step1";
 import YourHomepage from "./components/organisms/YourHomepage";
+import Step2 from "./components/organisms/Step2";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <WhyMarico />
         <Step1 />
         <YourHomepage />
+        <Step2 />
       </div>
     </div>
   );
