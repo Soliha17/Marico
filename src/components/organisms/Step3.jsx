@@ -4,7 +4,10 @@ import StepText from "../atoms/StepText";
 
 const Step3 = () => {
   return (
-    <div className="mt-16 flex flex-col items-center justify-center gap-2 md:mt-32 xl:mt-40">
+    <div
+      className="mt-16 flex flex-col items-center justify-center gap-2 md:mt-32 xl:mt-40"
+      data-aos="fade-up"
+    >
       <StepText text="Step 3" />
       <SectionTitle title="Send Emails & Text Messages" />
       <SectionText

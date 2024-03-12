@@ -5,7 +5,10 @@ import mLogo from "/src/assets/Mlogo.svg";
 
 const GetStartedNow = () => {
   return (
-    <div className="mx-auto mt-14 flex w-[95%] max-w-[1640px] flex-col items-center gap-4 md:gap-6 lg:mt-24">
+    <div
+      className="mx-auto mt-14 flex w-[95%] max-w-[1640px] flex-col items-center gap-4 md:gap-6 lg:mt-24"
+      data-aos="zoom-out-up"
+    >
       <img src={mLogo} className="w-32 md:w-[164px]" alt="m-logo" />
       <p className="text-center text-4xl font-semibold text-white md:text-5xl lg:text-6xl xl:text-8xl">
         Get Started Now

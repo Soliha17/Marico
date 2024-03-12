@@ -1,3 +1,6 @@
+import "aos/dist/aos.css";
+import AOS from "aos";
+
 import WhyMarico from "./components/organisms/WhyMarico";
 import Hero from "./components/organisms/Hero";
 import Navbar from "./components/organisms/Navbar";
@@ -11,8 +14,15 @@ import ExpertsAgree from "./components/organisms/ExpertsAgree";
 import Audience from "./components/organisms/Audience";
 import GetStartedNow from "./components/organisms/GetStartedNow";
 import Footer from "./components/organisms/Footer";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
+
   return (
     <div className="w-full bg-black">
       <div className="relative mx-auto max-w-[1920px] pt-7 sm:pt-11">
