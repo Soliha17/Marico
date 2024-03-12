@@ -20,15 +20,15 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration: 2000,
-      disable: function () {
-        var maxWidth = 800;
-        return window.innerWidth < maxWidth;
-      },
+      // disable: function () {
+      //   var maxWidth = 800;
+      //   return window.innerWidth < maxWidth;
+      // },
     });
   }, []);
 
   return (
-    <div className="w-full bg-black">
+    <div className="w-full overflow-x-hidden bg-black">
       <div className="relative mx-auto max-w-[1920px] pt-7 sm:pt-11">
         <Navbar />
         <Hero />
