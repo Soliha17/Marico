@@ -6,7 +6,7 @@ const MarkedText = ({ numberSize, textSize }) => {
   return (
     <div className="mt-6 flex items-center justify-center gap-[9px]">
       <div
-        className={`green-circle flex h-[28.6px] w-[28.6px] animate-pulse items-center justify-center rounded-full bg-no-repeat`}
+        className={`green-circle flex h-[28.6px] w-[28.6px] animate-pulse items-center justify-center rounded-[50%] bg-no-repeat`}
       >
         <img src={greenDot} alt="green dot" width={17.1} />
       </div>
