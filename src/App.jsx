@@ -20,6 +20,10 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration: 2000,
+      disable: function () {
+        var maxWidth = 800;
+        return window.innerWidth < maxWidth;
+      },
     });
   }, []);
 
